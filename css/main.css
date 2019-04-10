@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+	background-color: white;
+}
+a,a visted{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #cc0d24;
+	text-decoration: none;
+}
+.container{
+	width: 1211px;
+	margin: 0 auto;
+}
+.lf{
+	float: left;
+}
+.rf{
+	float: right;
+}
+li{
+	list-style:none;
+}
+input,button{
+	outline: none;
+}
+i{
+	background-image: url(../images/iconlist_2.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content: '';
+}
+b{
+	background-repeat:no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+q{
+    background-image: url(../images/iconlist_1.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;	
+}
+u{
+    background-image: url(../images/iconlist_3.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;	
+}
+p{
+	background-image: url(../images/ad-arraw.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;	
+}
+s{
+	background-image: url(../images/index_iconlist_01.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;	
+}
